@@ -15,10 +15,10 @@ def main():
 	cep = input('Digite o CEP para a consulta: ')
 
 '''
-while do nino ! Congrats for your resolution!!!!
+while do nino ! Congrats for your resolution!!!! X2
 '''
 
-	while len(cep) != 8:
+	while len(cep) != 8 or cep != int :
 	#if len(cep) != 8:
 		print('Quantidade de dígitos inválida!')
 		cep = input('Digite o CEP para a consulta: ')
