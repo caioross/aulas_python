@@ -14,9 +14,9 @@ def main():
 
   cep = input('Digite o CEP para a consulta:')
 
-  while len(cep) != 8:
+  while len(cep) != 8 or cep !=int :
     print('Quantidade de digitosinvalida!')
-    cep = input('Digite o CEP para  consulta: ')
+    cep = input('Digite o cep para  consulta: ')
 
   if len(cep) != 8:
     print('Quantidade de digitos invalida!')
